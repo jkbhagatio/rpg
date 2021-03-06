@@ -1,0 +1,27 @@
+# UI and game dev
+python >= 3.7
+pyqt5 >= 5.1
+pyopengl
+pygame
+pyglet
+
+# Data science
+numpy
+scipy
+jupyter
+jupyterlab
+matplotlib
+pandas
+scikit-learn
+seaborn
+statsmodels
+
+# Dev tools
+flake8
+pytest
+tox
+
+# External:
+#
+# openGL
+# cython

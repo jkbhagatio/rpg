@@ -1,0 +1,2 @@
+- organize `tests\`
+- test `setup.py`, `requirements.txt`, `env.yml`, and tox configuration (update flake8)
