@@ -1,6 +1,13 @@
 # RPG
 
-RPG is a 2d role-playing game. Currently in development. Core developer goals for this project are to: 1. Explore game dev in Python (e.g. using Pyglet and PyGame); 2. Explore UI (e.g. using PyQt5) and low-level graphics (e.g. using OpenGL, PyOpenGL) libraries; 3) Integrate python with low-level compiled code (e.g. C) 4. Use best practices in Python packaging (e.g. adhering to PyPA, using setuptools); 5. Use best development practices in CI/CD solutions and documentation (e.g. Flake8, PyTest, Tox, Travis CI, Github Actions, ReadTheDocs); 6. Use best practices in OOP Design Patterns.
+RPG is a 2d role-playing game. Currently in development. Core developer goals for this project are to: 
+
+1. Explore game dev in Python (e.g. using Pyglet and PyGame)
+2. Explore UI (e.g. using PyQt5) and low-level graphics (e.g. using OpenGL, PyOpenGL) libraries
+3. Integrate python with low-level compiled code (e.g. C) 
+4. Use best practices in Python packaging (e.g. adhering to PyPA, using setuptools)
+5. Use best development practices in CI/CD solutions and documentation (e.g. Flake8, PyTest, Tox, Travis CI, Github Actions, ReadTheDocs)
+6. Use best practices in OOP Design Patterns.
 
 ## Resources
 
@@ -104,7 +111,6 @@ RPG is a 2d role-playing game. Currently in development. Core developer goals fo
 - `docs\`: documentation and examples and development guidelines
 - `rpg\`: game source code
 - `tests\`: unit and integration tests
-- `.flake8`: settings for flake8 flaking
 - `changelog.md`: an up-to-date changelog describing latest features and their commits
 - `env.yml`: dependencies file for conda
 - `pyproject.toml`: specifies build tools
@@ -121,10 +127,10 @@ RPG is a 2d role-playing game. Currently in development. Core developer goals fo
 	- see [project organization and style guidelines](github.com/jkbhagatio/blob/master/docs/project_org_and_style_guidelines.md)
 	- All work should be done on feature branches. All work should be flaked and include tests. PRs from feature branches should be sent to `dev`. On a new release, `dev` is merged into `main`. CI runs on `dev` and `main`.
 	- On any merges into `dev`, the following should be updated (as necessary):	
-		1. `readme`
-		2. `docs`
+		1. `readme.md`
+		2. `docs\`
 		3. root directory config files
-		4. `changelog`
+		4. `changelog.md`
 	- Github Issues and Projects should be used to track and organize development.
 
 ## Misc
