@@ -6,7 +6,7 @@ RPG is a 2d role-playing game. Currently in development. Core developer goals fo
 2. Explore UI (e.g. using PyQt5) and low-level graphics (e.g. using OpenGL, PyOpenGL) libraries
 3. Integrate python with low-level compiled code (e.g. C) 
 4. Use best practices in Python packaging (e.g. adhering to PyPA, using setuptools)
-5. Use best development practices in CI/CD solutions and documentation (e.g. Flake8, PyTest, Tox, Travis CI, Github Actions, ReadTheDocs)
+5. Use best development practices in CI/CD solutions and documentation (e.g. Flake8, Black, PyTest, Tox, Travis CI, Github Actions, ReadTheDocs)
 6. Use best practices in OOP Design Patterns.
 
 ## Resources
@@ -38,6 +38,7 @@ RPG is a 2d role-playing game. Currently in development. Core developer goals fo
 5. CI/CD and Documentation
 	- [Pep8](https://www.python.org/dev/peps/pep-0008/)	
 	- [Flake8 docs](https://flake8.pycqa.org/en/latest/)
+        - [Black docks](https://github.com/psf/black)
 	- [PyTest docs](https://pytest.org/)
 	- [Tox docs](https://tox.readthedocs.io/en/latest/)
 	- [ReadTheDocs docs](https://docs.readthedocs.io/en/rel/getting_started.html)
