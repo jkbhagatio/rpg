@@ -38,7 +38,7 @@ RPG is a 2d role-playing game. Currently in development. Core developer goals fo
 5. CI/CD and Documentation
 	- [Pep8](https://www.python.org/dev/peps/pep-0008/)	
 	- [Flake8 docs](https://flake8.pycqa.org/en/latest/)
-        - [Black docks](https://github.com/psf/black)
+	- [Black docks](https://github.com/psf/black)
 	- [PyTest docs](https://pytest.org/)
 	- [Tox docs](https://tox.readthedocs.io/en/latest/)
 	- [ReadTheDocs docs](https://docs.readthedocs.io/en/rel/getting_started.html)
